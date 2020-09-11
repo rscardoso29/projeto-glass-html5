@@ -58,13 +58,19 @@ nav#menu li{
     background-color: #dddddd;
     padding: 10px;
     margin: 2px;
-        
-    }
-nav#menu li :hover{
+}
+nav#menu li:hover{
     background-color: #606060;
-    transition-delay: 3ms;
+    transition: 1s;
 }
     
 nav#menu h1{
     display: none;
+}
+nav#menu a{
+    color: black;
+    text-decoration: none;
+}
+nav#menu a:hover{
+    color: #ffffff;
 }
