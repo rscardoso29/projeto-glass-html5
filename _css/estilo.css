@@ -10,7 +10,7 @@ body{
     color: rgba(0, 0, 0, 1);
 }
 div#interface{
-    width: 900px;
+    width: 1100px;
     background-color: #ffffff;
     margin: -20px auto 10px auto;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, .5);
@@ -35,7 +35,7 @@ background: url(../_imagens/glass-logo-peq.jpg) no-repeat 0px 80px;
 }
 
 header#cabecalho h1{
-    font-family: 'Fonte', sans-serif;
+    font-family: 'FonteLogo', sans-serif;
     font-size: 30pt;
     color: #606060;
     text-shadow: 1px 1px 1px rgba(0, 0, 0, .6);
@@ -115,4 +115,24 @@ nav#menu a{
 }
 nav#menu a:hover{
     color: #ffffff;
+}
+
+section#corpo{
+    display: block;
+    width: 670px;
+    float: left;
+    border-right: 1px solid #606060;
+    padding-right: 15px;
+}
+aside#lateral{
+    display: block;
+    width: 400px;
+    float: right;
+}
+footer#rodape{
+    clear: both;
+    border-top: 1px solid #606060;
+}
+footer#rodape p{
+text-align: center;
 }
