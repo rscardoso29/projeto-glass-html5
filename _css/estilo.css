@@ -42,7 +42,6 @@ header#cabecalho h1{
     padding: 0px;
     margin-bottom: 0px;
     }
-
 header#cabecalho h2{
     font-family: 'Titillium Web', sans-serif;
     font-size: 15pt;
@@ -50,19 +49,15 @@ header#cabecalho h2{
     padding: 0px;
     margin-top: 0px;
 }
-
 /*Formatação de imagens com legendas*/
-
 figure.foto-legenda{
     position: relative;
     border: 8px solid white;
     box-shadow: 2px 2px 4px black;
 }
-
 figure.foto-legenda{
     width: fit-content;
     height: fit-content;
-
 }
 figure.foto-legenda figcaption{
     opacity: 0;
@@ -76,17 +71,13 @@ figure.foto-legenda figcaption{
     box-sizing: border-box;
     transition: opacity 1s;
 }
-
 figure.foto-legenda:hover figcaption{
     opacity: 1;
 }
-
 /*Formatação do menu*/
-
 nav#menu{
     display: block;
 }
-
 nav#menu ul{
 list-style: none;
 text-transform: uppercase;
@@ -94,7 +85,6 @@ position: absolute;
 top: -20px;
 left: 500px;
 }
-
 nav#menu li{
     display: inline-block;
     background-color: #dddddd;
@@ -105,7 +95,6 @@ nav#menu li:hover{
     background-color: #606060;
     transition: 1s;
 }
-    
 nav#menu h1{
     display: none;
 }
@@ -116,7 +105,6 @@ nav#menu a{
 nav#menu a:hover{
     color: #ffffff;
 }
-
 section#corpo{
     display: block;
     width: 670px;
