@@ -124,6 +124,28 @@ table#tabelaspec td {
     text-align: center;
     vertical-align: middle;
 }
+table#tabelaspec td.ce {
+    color: #ffffff;
+    background-color: #606060;
+    vertical-align: top;
+    font-weight: bold;
+}
+table#tabelaspec td.cd {
+    background-color: #cecece;
+}
+table#tabelaspec caption {
+    color: #888888;
+    font-size: 20px;
+    font-weight: bolder;
+}
+table#tabelaspec caption span {
+    display: block;
+    float: right;
+    color: #000000;
+    font-size: 12px;
+    margin-top: 10px;
+}
+
 
 aside#lateral{
     display: block;
