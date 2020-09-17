@@ -17,7 +17,6 @@ div#interface{
     box-shadow: 0px 0px 10px rgba(0, 0, 0, .5);
     padding: 10px 10px 10px 10px;
 }
-
 p {
     text-align: justify;
     text-indent: 50px;
@@ -28,7 +27,6 @@ header#cabecalho img#icone{
     left: 1080px;
     top: 70px;
 }
-
 a {
     color: #606060;
     text-decoration: none;
