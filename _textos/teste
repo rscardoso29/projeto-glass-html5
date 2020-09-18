@@ -8,7 +8,7 @@
 <body>
     <h1>Testando Javascript</h1>
     <script>
-        alert("Ola Mundo!");
+        document.write ("ola hoje e dia " + Date());
     </script>
 </body>
 </html>
